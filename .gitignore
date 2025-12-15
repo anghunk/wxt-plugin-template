@@ -25,5 +25,6 @@ web-ext.config.ts
 *.sw?
 
 .env
+.env.development
 package-lock.json
 .output
