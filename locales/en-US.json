@@ -1,0 +1,25 @@
+{
+  "common": {
+    "appName": "Wxt Plugin Template",
+    "settings": "Settings",
+    "save": "Save",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "close": "Close",
+    "loading": "Loading...",
+    "success": "Success",
+    "error": "Error",
+    "warning": "Warning"
+  },
+  "popup": {
+    "title": "Wxt Plugin Template - Popup",
+    "description": "Custom template built with Wxt"
+  },
+  "options": {
+    "title": "Options",
+    "description": "Configure plugin options",
+    "language": "Language",
+    "languageDesc": "Select interface language",
+    "followSystem": "Follow System"
+  }
+}

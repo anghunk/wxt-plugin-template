@@ -1,0 +1,25 @@
+{
+  "common": {
+    "appName": "Wxt Plugin Template",
+    "settings": "设置",
+    "save": "保存",
+    "cancel": "取消",
+    "confirm": "确认",
+    "close": "关闭",
+    "loading": "加载中...",
+    "success": "成功",
+    "error": "错误",
+    "warning": "警告"
+  },
+  "popup": {
+    "title": "Wxt 插件模板 - 弹窗",
+    "description": "基于 Wxt 构建的自定义模板"
+  },
+  "options": {
+    "title": "选项设置",
+    "description": "配置插件选项",
+    "language": "语言设置",
+    "languageDesc": "选择界面显示语言",
+    "followSystem": "跟随系统"
+  }
+}
