@@ -39,15 +39,4 @@ export default defineConfig({
 			open_in_tab: true,
 		},
 	},
-	hooks: {
-		'build:manifestGenerated': (wxt, manifest) => {
-			if (wxt.config.command === 'serve') {
-				manifest.content_scripts ??= [];
-				manifest.content_scripts.push({
-					matches: ['*://*/*'],
-					js: ['content-scripts/content.js'],
-				});
-			}
-		},
-	},
 });
